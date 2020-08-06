@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://dyqdzh.github.io</id>
     <title>dyqdzh的博客</title>
-    <updated>2020-08-06T09:44:20.074Z</updated>
+    <updated>2020-08-06T09:47:16.137Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://dyqdzh.github.io"/>
     <link rel="self" href="https://dyqdzh.github.io/atom.xml"/>
@@ -22,6 +22,21 @@
 这是使用内置编译器写的内容</p>
 </blockquote>
 <p>内置编译器功能较为简单，支持</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://dyqdzh.github.io/post/about/</id>
+        <link href="https://dyqdzh.github.io/post/about/">
+        </link>
+        <updated>2019-01-25T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<blockquote>
+<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
+</blockquote>
+<h2 id="关于本站">🏠 关于本站</h2>
+<h2 id="博主是谁">👨‍💻 博主是谁</h2>
+<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
+<h2 id="联系我呀">📬 联系我呀</h2>
 ]]></content>
     </entry>
     <entry>

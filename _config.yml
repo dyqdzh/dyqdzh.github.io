@@ -3,22 +3,22 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: dyqBlog
-subtitle: knowledge trace
-description: dyq's personal blog
+title: dyq's Blog
+subtitle: ''
+description: ''
 keywords:
 author: Du Yuqing
-language: zh-CN
-timezone: Asia/Shanghai
+language: en
+timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://dyqdzh.com
+url: http://dyqdzh.com/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
-  trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: false # Set to false to remove trailing '.html' from permalinks
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
 
 # Directory
 source_dir: source
@@ -102,11 +102,19 @@ theme: keep
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
-  repo: https://github.com/dyqdzh/dyqdzh.github.io
-  branch: master
-  message:
+  type: ''
 
-menu:
-  Home: /
-  About: /about
+# Search
+## See: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
+
+# Feed Atom
+# npm install hexo-generator-feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
